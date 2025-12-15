@@ -1,0 +1,32 @@
+.footer {
+    display: flex;              
+    justify-content: space-between; 
+    flex-wrap: wrap;            
+    padding: 20px 20%;     
+    background-image: url("../assets/footer-bg.jpg");         
+    background-color: #f8f8f8;  
+    gap: 20px;                  
+}
+
+.col {
+    flex: 1;                    
+    min-width: 200px;          
+    
+}
+
+.col li a {
+    color: rgb(171, 171, 171);
+    text-decoration: none;
+    font-size: 15px;
+
+    
+}
+.col li a:hover {
+    color: #007bff;
+}
+.foot_links{
+    list-style:none;
+}
+.col h2{
+    color:white;
+}

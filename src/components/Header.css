@@ -1,0 +1,32 @@
+.header {
+  display: flex;              /* Mette tutto in riga orizzontale */
+  align-items: center;        /* Allinea verticalmente al centro */
+  justify-content: space-between; /* Logo a sinistra, menu a destra */
+  padding: 20px 40px;         /* Spazio interno (opzionale) */
+  background-color: #000;     /* Sfondo nero come DC, opzionale */
+  color: white;
+}
+
+.logo {
+  height: 50px;               /* Dimensione logo, adatta come vuoi */
+}
+
+.nav-menu {
+  display: flex;              /* Mette i <li> in riga */
+  list-style: none;           /* Rimuove i pallini */
+  margin: 0;
+  padding: 0;
+  gap: 30px;                  /* Spazio tra i link */
+}
+
+.nav-menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav-menu li a:hover {
+  color: #007bff;             /* Blu DC al passaggio mouse, opzionale */
+}

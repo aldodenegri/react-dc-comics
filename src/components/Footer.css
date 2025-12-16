@@ -1,8 +1,8 @@
-.footer {
+#footer_div_1 {
     display: flex;              
     justify-content: space-between; 
     flex-wrap: wrap;            
-    padding: 20px 20%;     
+    padding: 20px 10%;     
     background-image: url("../assets/footer-bg.jpg");         
     background-color: #f8f8f8;  
     gap: 20px;                  
@@ -30,3 +30,31 @@
 .col h2{
     color:white;
 }
+
+#footer_div_2 
+{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:black;
+    padding: 20px 10%; 
+}
+#footer_div_2 > div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+#footer_div_2 span{
+    color:#007bff;
+}
+#footer_div_2 button
+{
+    height:50px;
+    width:200px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(76, 74, 74);
+    border: 1px solid rgb(12, 107, 250);
+    cursor:pointer;
+}    

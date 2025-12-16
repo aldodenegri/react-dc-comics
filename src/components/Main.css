@@ -26,3 +26,41 @@
     height: 50px;
     width: 55px;
 }
+
+#main_div_products {
+  background-color: #28282b;
+  padding: 50px 15%;
+  
+}
+
+.comics-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.comic-card {
+  width: 150px;
+  text-align: start;
+  color: white;
+  position:relative;
+}
+
+.comic-thumb {
+  width: 150px;
+  height:175px;
+}
+
+.comic-card h3 {
+  font-size: 15px;
+  position:absolute;
+  height:75px;
+  top:125px;
+  width:100%;
+  display:flex;
+  align-items: center;
+  background-color: #28282b;
+  text-transform: uppercase;
+}

@@ -3,9 +3,9 @@ import './Header.css';
 
 function Header() {
     return (
-        <div id="header_div" class="header">
-            <img src={dc_logo} alt="DC Logo" class="logo" />
-            <ul class="nav-menu">
+        <div id="header_div" className="header">
+            <img src={dc_logo} alt="DC Logo" className="logo" />
+            <ul className="nav-menu">
                 <li><a href="#">Characters</a></li>
                 <li><a href="#">Comics</a></li>
                 <li><a href="#">Movies</a></li>

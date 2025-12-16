@@ -12,7 +12,7 @@ function Main() {
 
                 <div class="comics-grid">
                     {comics.map((comic) => (
-                        <div id={comic.id} class="comic-card">
+                        <div key={comic.id} className="comic-card">
                             <img src={comic.thumb} alt={comic.title} class="comic-thumb" />
                             <h3>{comic.series}</h3>
                         </div>
@@ -20,7 +20,7 @@ function Main() {
                 </div>
 
             </div>
-            <div id="main_div" class="main">
+            <div id="main_div" className="main">
                 <ul>
                     <li><img src={digital_comics}></img><a href="#">DIGITAL COMICS</a></li>
                     <li><img src={merchandise}></img><a href="#">DC MERCHANDISE</a></li>

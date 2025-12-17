@@ -9,7 +9,7 @@ function Main() {
     return (
         <div>
             <div id="main_div_products">
-
+                
                 <div class="comics-grid">
                     {comics.map((comic) => (
                         <div key={comic.id} className="comic-card">

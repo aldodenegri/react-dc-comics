@@ -4,23 +4,23 @@ import shop from '../assets/buy-comics-shop-locator.png'
 import visa from '../assets/buy-dc-power-visa.svg'
 import subscription from '../assets/buy-comics-subscriptions.png'
 import comics from '../components/comics.js'
-import './Main.css'
+import style from './Main.module.css'
 function Main() {
     return (
         <div>
             <div id="main_div_products">
                 
-                <div class="comics-grid">
+                <div className={style.comic_grid}>
                     {comics.map((comic) => (
-                        <div key={comic.id} className="comic-card">
-                            <img src={comic.thumb} alt={comic.title} class="comic-thumb" />
+                        <div key={comic.id} className={style.comic_card}>
+                            <img src={comic.thumb} alt={comic.title} className={style.comic_thumb} />
                             <h3>{comic.series}</h3>
                         </div>
                     ))}
                 </div>
 
             </div>
-            <div id="main_div" className="main">
+            <div id="main_div" className={style.main}>
                 <ul>
                     <li><img src={digital_comics}></img><a href="#">DIGITAL COMICS</a></li>
                     <li><img src={merchandise}></img><a href="#">DC MERCHANDISE</a></li>

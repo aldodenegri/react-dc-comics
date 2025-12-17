@@ -1,4 +1,4 @@
-import './Footer.css'
+import style from './Footer.module.css'
 import facebook from '../assets/footer-facebook.png'
 import periscope from '../assets/footer-periscope.png'
 import pinterest from '../assets/footer-pinterest.png'
@@ -7,9 +7,9 @@ import youtube from '../assets/footer-youtube.png'
 function Footer() {
     return (
         <div>
-            <div id="footer_div_1" className="footer">
-                <div className="col">
-                    <ul className="foot_links">
+            <div id="footer_div_1" className={style.footer}>
+                <div className={style.col}>
+                    <ul className={style.foot_links}>
                         <h2>DC COMICS</h2>
                         <li><a href="#">Characters</a></li>
                         <li><a href="#">Comics</a></li>
@@ -23,14 +23,14 @@ function Footer() {
                         <li><a href="#">Shop</a></li>
                     </ul>
 
-                    <ul className="foot_links">
+                    <ul className={style.foot_links}>
                         <h2>SHOP</h2>
                         <li><a href="#">Shop DC</a></li>
                         <li><a href="#">Shop DC Collectibles</a></li>
                     </ul>
                 </div>
-                <div className="col">
-                    <ul className="foot_links">
+                <div className={style.col}>
+                    <ul className={style.foot_links}>
                         <h2>DC</h2>
                         <li><a href="#">Terms Of Use</a></li>
                         <li><a href="#">Privacy Policy(News)</a></li>
@@ -45,8 +45,8 @@ function Footer() {
                         <li><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
-                <div className="col">
-                    <ul className="foot_links">
+                <div className={style.col}>
+                    <ul className={style.foot_links}>
                         <h2>SITES</h2>
                         <li><a href="#">DC</a></li>
                         <li><a href="#">MAD Magazine</a></li>

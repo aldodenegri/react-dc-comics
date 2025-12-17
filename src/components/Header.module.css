@@ -10,7 +10,7 @@
     height: 50px;
 }
 
-.nav-menu {
+.nav_menu {
     display: flex;
     list-style: none;
     margin: 0;
@@ -18,7 +18,7 @@
     gap: 30px;
 }
 
-.nav-menu li a {
+.nav_menu li a {
     color: black;
     text-decoration: none;
     font-size: 16px;
@@ -26,7 +26,7 @@
     text-transform: uppercase;
 }
 
-.nav-menu li a:hover {
+.nav_menu li a:hover {
     color: #007bff;
     border-bottom:2px solid #007bff;
 }

@@ -1,4 +1,4 @@
-#footer_div_1 {
+:global(#footer_div_1) {
     display: flex;              
     justify-content: space-between; 
     flex-wrap: wrap;            
@@ -31,7 +31,7 @@
     color:white;
 }
 
-#footer_div_2 
+:global(#footer_div_2) 
 {
     display:flex;
     justify-content:space-between;
@@ -39,15 +39,15 @@
     background-color:black;
     padding: 20px 10%; 
 }
-#footer_div_2 > div:nth-child(2) {
+:global(#footer_div_2)  > div:nth-child(2) {
     display: flex;
     align-items: center;
     gap: 15px; 
 }
-#footer_div_2 span{
+:global(#footer_div_2)  span{
     color:#007bff;
 }
-#footer_div_2 button
+:global(#footer_div_2)  button
 {
     height:50px;
     width:200px;

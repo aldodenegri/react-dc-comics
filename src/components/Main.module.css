@@ -33,7 +33,6 @@ globalmente per questo il modo di utilizzarli dovrà essere diverso dalle classi
 :global(#main_div_products) {
   background-color: #28282b;
   padding: 50px 15%;
-  
 }
 
 .comic_grid {
@@ -44,10 +43,10 @@ globalmente per questo il modo di utilizzarli dovrà essere diverso dalle classi
   gap: 20px;
 }
 
-.comic_card {
-  width: 15%;
+.comic_card {        
+  max-width: 300px;     
+  margin-bottom: 20px;
   text-align: start;
-  color: white;
   position:relative;
 }
 
@@ -66,4 +65,24 @@ globalmente per questo il modo di utilizzarli dovrà essere diverso dalle classi
   align-items: center;
   background-color: #28282b;
   text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .comic_card {
+    width: 45%;         
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .comic_card {
+    width: 30%;          
+  }
+}
+
+
+@media (min-width: 1428px) {
+  .comic_card {
+    width: 15%;          
+  }
 }

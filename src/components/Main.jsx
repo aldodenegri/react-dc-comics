@@ -5,19 +5,20 @@ import visa from '../assets/buy-dc-power-visa.svg'
 import subscription from '../assets/buy-comics-subscriptions.png'
 import comics from '../components/comics.js'
 import style from './Main.module.css'
+import ComicCard from './props/ComicCard'
 function Main() {
     return (
         <div>
             <div id="main_div_products">
-                
-                <div className={style.comic_grid}>
+                <ComicCard comics={comics}/>
+                {/* <div className={style.comic_grid}>
                     {comics.map((comic) => (
                         <div key={comic.id} className={style.comic_card}>
                             <img src={comic.thumb} alt={comic.title} className={style.comic_thumb} />
                             <h3>{comic.series}</h3>
                         </div>
                     ))}
-                </div>
+                </div> */}
 
             </div>
             <div id="main_div" className={style.main}>

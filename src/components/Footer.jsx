@@ -5,6 +5,7 @@ import pinterest from '../assets/footer-pinterest.png'
 import twitter from '../assets/footer-twitter.png'
 import youtube from '../assets/footer-youtube.png'
 import Link1 from './props/ArrayLink1.jsx'
+import link1 from './link1'
 function Footer() {
     return (
         <div>
@@ -12,7 +13,7 @@ function Footer() {
                 <div className={style.col}>
                     <ul className={style.foot_links}>
                         <h2>DC COMICS</h2>
-                        <Link1/>
+                        <Link1 links={link1}/>
                         {/* <li><a href="#">Characters</a></li>
                         <li><a href="#">Comics</a></li>
                         <li><a href="#">Movies</a></li>

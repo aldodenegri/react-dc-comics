@@ -1,6 +1,7 @@
 import dc_logo from '../assets/dc-logo.png';
 import style from './Header.module.css';
 import Links1 from './props/ArrayLink1.jsx'
+import link1 from './link1'
 // const nav = [
 //     {
 //         id: 1,
@@ -49,7 +50,7 @@ function Header() {
         <div className={style.header}>
             <img src={dc_logo} alt="DC Logo" className={style.logo} />
             <ul className={style.nav_menu}>
-                <Links1></Links1>
+                <Links1 links={link1}></Links1>
                 {/* {nav.map(elem => (
                     <li key={elem.id}><a href="#">{elem.label}</a></li>
                 ))} */}

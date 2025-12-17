@@ -4,6 +4,7 @@ import periscope from '../assets/footer-periscope.png'
 import pinterest from '../assets/footer-pinterest.png'
 import twitter from '../assets/footer-twitter.png'
 import youtube from '../assets/footer-youtube.png'
+import Link1 from './props/ArrayLink1.jsx'
 function Footer() {
     return (
         <div>
@@ -11,7 +12,8 @@ function Footer() {
                 <div className={style.col}>
                     <ul className={style.foot_links}>
                         <h2>DC COMICS</h2>
-                        <li><a href="#">Characters</a></li>
+                        <Link1/>
+                        {/* <li><a href="#">Characters</a></li>
                         <li><a href="#">Comics</a></li>
                         <li><a href="#">Movies</a></li>
                         <li><a href="#">TV</a></li>
@@ -20,7 +22,7 @@ function Footer() {
                         <li><a href="#">Videos</a></li>
                         <li><a href="#">Fans</a></li>
                         <li><a href="#">News</a></li>
-                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Shop</a></li> */}
                     </ul>
 
                     <ul className={style.foot_links}>
